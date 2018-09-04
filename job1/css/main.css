@@ -1,0 +1,41 @@
+body{
+	background-color: rgb(245,245,245);
+}
+#head_img{
+	width: 100%;
+}
+#android_button {
+	width: 100%;
+text-align: center;
+margin: a auto;
+cursor: pointer;
+}
+#android_button img {
+ width: 3rem;
+}
+#foot{
+	position: relative;
+	    margin-top: 1rem;
+}
+#body_img img{
+    margin: 0 auto;
+    display: block;
+    width: 9.5rem;
+}
+#content{
+	   
+    margin-left: 0.5rem;
+}
+#content_title{
+	font-size: 0.5rem;
+}
+#content_wenzi{
+	font-size: 0.4rem;
+}
+#foot_img img{
+	z-index: -1;
+    bottom: -2rem;
+    right: 0rem;
+    position: absolute;
+    width: 6rem;
+}

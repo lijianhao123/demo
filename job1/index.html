@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/commom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+	   <div id="head">
+	   	<img src="img/nav_head.png" id='head_img'/>
+	   </div>
+		<div id="body">
+		  <div id="android_button">
+		   <img src="img/andro_button.jpg"/>
+		  </div>
+		  <div id="body_img">
+		  	<img src="img/body_img.jpg"/>
+		  </div>
+		  <div id="foot">
+		
+		  	<div id="content">
+		  	
+		  	<div id='content_title'><strong>格兰仕G+平台，引领智能生活！</strong></div>
+		  		<div id='content_wenzi'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G+智能家居APP是格兰仕针对旗下智能设备退出的移动端应用，目前支持查看和控制远程智能设备，分组管理、设备设置与设备的智能场景联动。同时，用户可以通过G+智慧家居进功能的切换，自由的浏览访问移动商城、西红柿社区及云菜谱平台，了解支持G+智慧家居APP设备的咨询等等。本说明主要用于说明软件的安装配置和操作使用。
+		  	</div>
+		  		</div>
+		  		<div id="foot_img">
+		  			<img  src="img/foot_img.png" />
+		  			
+		  		</div>
+		  </div>
+		</div>
+		
+	</body>
+		<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">
+	 init()
+$('#android_button').click(function(){
+	
+	window.location.href='http://www.baidu.com';
+});
+	
+	window.onresize=function(){
+    init()
+	}
+	function init(){
+	var width=document.documentElement.clientWidth;
+	var html=	document.getElementsByTagName('html');
+	html[0].style.fontSize=width/10+'px';
+	}
+	
+	</script>
+</html>
